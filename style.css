@@ -1,0 +1,36 @@
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 74px;
+  margin: 15px;
+}
+
+figure img {
+  width: 440px;
+  height: auto;
+  border: 15px solid black;
+  padding: 5px;
+}
+
+figure figcaption {
+  font-size: 10px;
+  color: white;
+  background: black;
+  width: 480px;
+}
+
+p {
+  color: white;
+  background: black;
+  padding: 20px;
+  max-width: 500px;
+  margin: 10px;
+}
+
+p img {
+  width: 40%;
+  height: auto;
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
