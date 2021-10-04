@@ -5,6 +5,21 @@ h1 {
   margin: 15px;
 }
 
+.skip-link {
+  background: #ffffff;
+  color: #000000;
+  font-weight: 700;
+  left: 20px;
+  padding: 3px;
+  position: relative;
+  transform: translateY(-100%);
+}
+
+.skip-link:focus {
+  transform: translateY(0%);
+  transition: transform 0.3s;
+}
+
 figure img {
   width: 440px;
   height: auto;
