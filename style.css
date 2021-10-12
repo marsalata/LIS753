@@ -11,6 +11,12 @@ h1#article-title {
   margin-top: 40px;
 }
 
+h2 {
+  font-weight: 900;
+  margin-bottom: 0;
+  margin-top: 48px;
+}
+
 .skip-link {
   background: #ffffff;
   color: #000000;
@@ -27,33 +33,51 @@ h1#article-title {
 }
 
 figure img {
-  width: 440px;
   height: auto;
   border: 15px solid black;
   padding: 5px;
+}
+
+figure.main-image {
+  background: LightBlue;
+  border: 10px solid DarkBlue;
+  color: #ffffff
+  width: 100%;
+}
+
+figure.section-image {
+  margin-bottom: 10px;
+  max-width: 300px;
+}
+
+figure.section-image.odd {
+  float: right;
+  margin-left: 10px;
+}
+
+figure.section-image.even {
+  float: left;
+  margin-right: 10px;
 }
 
 figure figcaption {
   font-size: 10px;
   color: white;
   background: black;
-  width: 480px;
 }
 
 p {
   color: white;
   background: black;
   padding: 20px;
-  max-width: 500px;
   margin: 10px;
 }
 
 p img {
-  width: 40%;
-  height: auto;
-  float: right;
-  margin-left: 15px;
-  margin-bottom: 15px;
+    width: 40%;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 nav ul {
