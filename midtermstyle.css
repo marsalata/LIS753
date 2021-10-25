@@ -28,11 +28,9 @@ nav ul {
   gap: justify;
   list-style: none;
   padding-left: 10px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black ;
 }
 
-nav ul li a {
+header nav ul li a {
   color: #A00000;
   text-decoration: none;
   padding: 12px;
@@ -102,3 +100,39 @@ h4 {
 p {
   margin-bottom: 40px;
 }
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: justify;
+  list-style: none;
+  padding-left: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black ;
+}
+
+footer#page-footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 10px;
+  margin-top: 30px;
+  background-color: grey;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  gap: justify;
+  list-style: none;
+  padding-left: 10px;
+}
+
+footer nav ul li a {
+  color: #A00000;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
