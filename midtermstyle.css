@@ -27,7 +27,7 @@ nav ul {
   justify-content: center;
   gap: justify;
   list-style: none;
-  padding-left: 0;
+  padding-left: 10px;
   border-top: 1px solid black;
   border-bottom: 1px solid black ;
 }
