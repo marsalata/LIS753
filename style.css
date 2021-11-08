@@ -34,9 +34,13 @@ h2 {
 }
 
 figure img {
+  margin-bottom: 12px;
+}
+
+img {
+  max-width: 100%;
   height: auto;
-  border: 15px solid black;
-  padding: 5px;
+  min-width: 100%;
 }
 
 figure.main-image {
@@ -46,9 +50,11 @@ figure.main-image {
   width: 100%;
 }
 
-figure.section-image {
-  margin-bottom: 10px;
-  max-width: 300px;
+@media all and (min-width: 768px) {
+  figure.section-image {
+    margin-bottom: 10px;
+    max-width: 300px;
+  }
 }
 
 figure.section-image.odd {
@@ -82,13 +88,18 @@ p img {
 }
 
 nav ul {
-  display: flex;
-  justify-content: center;
-  gap: justify;
   list-style: none;
   padding-left: 0;
   border-top: 1px solid DarkBlue;
   border-bottom: 1px solid DarkBlue;
+}
+
+@media all and (min-width= 376px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: justify;
+  }
 }
 
 nav ul li {
